@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>seatunnel-core</artifactId>
+    <groupId>io.github.fzuzhanghao</groupId>
+    <version>2.3.3</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.fzuzhanghao</groupId>
+  <artifactId>seatunnel-starter</artifactId>
+  <name>SeaTunnel : Core : Starter</name>
+  <version>2.3.3</version>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <tag>2.3.3</tag>
+  </scm>
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <configuration>
+          <artifactSet>
+            <excludes>
+              <exclude>org.slf4j:slf4j-jdk14</exclude>
+              <exclude>org.slf4j:slf4j-jcl</exclude>
+              <exclude>org.slf4j:slf4j-nop</exclude>
+              <exclude>org.slf4j:slf4j-simple</exclude>
+              <exclude>org.slf4j:slf4j-reload4j</exclude>
+              <exclude>org.slf4j:slf4j-log4j12</exclude>
+              <exclude>org.slf4j:log4j-over-slf4j</exclude>
+              <exclude>log4j:*</exclude>
+              <exclude>commons-logging:*</exclude>
+              <exclude>ch.qos.logback:*</exclude>
+              <exclude>org.apache.logging.log4j:log4j-to-slf4j</exclude>
+              <exclude>org.apache.seatunnel:seatunnel-hadoop3-3.1.4-uber</exclude>
+            </excludes>
+          </artifactSet>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

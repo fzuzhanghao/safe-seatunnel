@@ -1,0 +1,11 @@
+ADtPsrgrhO5uYSbvY1VcWzumXFtXxgdbeEBzySTuSyk=
+pom.xml 2024-11-26T10:52:33.906781Z
+src\main\java\org\apache\seatunnel\format\avro\AvroDeserializationSchema.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\AvroSerializationSchema.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\AvroToRowConverter.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\exception\AvroFormatErrorCode.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\exception\SeaTunnelAvroFormatException.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\RowToAvroConverter.java 2024-11-24T11:25:14.618323Z
+src\main\java\org\apache\seatunnel\format\avro\SeaTunnelRowTypeToAvroSchemaConverter.java 2024-11-24T11:25:14.618323Z
+src\test\java\org\apache\seatunnel\format\avro\AvroConverterTest.java 2024-11-24T11:25:14.618323Z
+src\test\java\org\apache\seatunnel\format\avro\AvroSerializationSchemaTest.java 2024-11-24T11:25:14.618323Z
